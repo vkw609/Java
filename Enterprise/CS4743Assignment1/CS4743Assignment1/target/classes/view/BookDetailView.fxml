@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Label layoutX="50.0" layoutY="39.0" text="Title" />
+    <Label layoutX="50.0" layoutY="85.0" text="isbn" />
+    <Label layoutX="49.0" layoutY="132.0" text="Year" />
+    <Label layoutX="19.0" layoutY="178.0" text="Summary" />
+    <TextField fx:id="title" layoutX="105.0" layoutY="36.0" />
+    <TextField fx:id="isbn" layoutX="105.0" layoutY="81.0" />
+    <TextField fx:id="year" layoutX="105.0" layoutY="128.0" />
+    <TextField fx:id="summary" alignment="TOP_LEFT" layoutX="105.0" layoutY="175.0" prefHeight="70.0" prefWidth="236.0" />
+    <Label layoutX="354.0" layoutY="39.0" text="Publisher Id" />
+    <ComboBox fx:id="publishers" layoutX="470.0" layoutY="36.0">
+      <items>
+        <FXCollections fx:factory="observableArrayList" />
+      </items>
+    </ComboBox>
+    <Button fx:id="bookSave" layoutX="236.0" layoutY="315.0" mnemonicParsing="false" onAction="#handleSave" text="Save" />
+    <Button fx:id="bookDelete" layoutX="339.0" layoutY="315.0" mnemonicParsing="false" onAction="#handleDelete" text="Delete" />
+    <Button fx:id="bookAudit" layoutX="470.0" layoutY="80.0" mnemonicParsing="false" onAction="#handleAudit" text="Audit List" />
+  </children>
+</AnchorPane>

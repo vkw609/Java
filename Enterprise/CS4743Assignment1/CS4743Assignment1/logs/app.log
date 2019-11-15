@@ -1,0 +1,14 @@
+01:03:24.970 INFO  application.Main : Starting...
+01:03:28.710 INFO  application.MainController : Clicked on Books. Show menuItem 'BookList'
+01:03:28.710 INFO  application.MainController : Viewing book list.
+01:03:28.711 INFO  application.Books : Incorrect year. Books must be later than 1990
+01:03:28.712 INFO  application.Books : Incorrect year. Books must be later than 1990
+01:03:29.941 INFO  application.BookListController : Double Click mouse event
+01:03:29.942 INFO  application.BookListController : User selected the book:Boo
+01:03:29.942 INFO  application.MainController : Viewing book detail'
+01:03:29.969 INFO  application.BookDetailController : Set text for variables
+01:04:52.844 INFO  application.Main : Starting...
+01:04:56.837 INFO  application.MainController : Clicked on Books. Show menuItem 'BookList'
+01:04:56.838 INFO  application.MainController : Viewing book list.
+01:04:56.839 INFO  application.Books : Incorrect year. Books must be later than 1990
+01:04:56.839 INFO  application.Books : Incorrect year. Books must be later than 1990
